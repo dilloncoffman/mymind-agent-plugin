@@ -1,0 +1,11 @@
+{
+  "id": "b7C5d2E9f1G6h3J0k8L4m2",
+  "title": "Example Article",
+  "url": "https://example.com/article",
+  "tags": [
+    { "name": "reading" }
+  ],
+  "created": "2024-04-08T09:00:00Z",
+  "modified": "2024-04-08T09:00:00Z",
+  "bumped": "2024-04-08T09:00:00Z"
+}

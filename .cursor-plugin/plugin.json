@@ -1,0 +1,45 @@
+{
+  "name": "mymind",
+  "version": "0.1.0",
+  "description": "Search, read, and organize your mymind objects, spaces, and tags.",
+  "author": {
+    "name": "Dillon Coffman"
+  },
+  "homepage": "https://github.com/dilloncoffman/mymind-agent-plugin",
+  "keywords": [
+    "mymind",
+    "bookmarks",
+    "notes",
+    "spaces",
+    "tags",
+    "mcp",
+    "cursor-plugin",
+    "agent-plugin"
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "MYMIND_KEY_ID": {
+        "type": "string",
+        "title": "mymind key id (kid)",
+        "description": "Access key identifier from https://access.mymind.com/extensions. Used as the JWT kid. The plugin never stores the value."
+      },
+      "MYMIND_KEY_SECRET": {
+        "type": "string",
+        "title": "mymind key secret",
+        "description": "Base64-encoded access key secret from https://access.mymind.com/extensions. Shown only once at creation. The plugin never stores the value."
+      },
+      "MYMIND_USER_AGENT": {
+        "type": "string",
+        "title": "User-Agent",
+        "description": "Optional. User-Agent sent on every request. The API requires one; if unset, the plugin uses mymind-agent-plugin/0.1.0."
+      }
+    },
+    "required": [
+      "MYMIND_KEY_ID",
+      "MYMIND_KEY_SECRET"
+    ]
+  },
+  "repository": "https://github.com/dilloncoffman/mymind-agent-plugin",
+  "license": "MIT"
+}

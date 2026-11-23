@@ -1,0 +1,20 @@
+[
+  {
+    "name": "writing",
+    "count": 14,
+    "flags": 8,
+    "modified": "2024-04-01T10:30:00Z"
+  },
+  {
+    "name": "tools",
+    "count": 8,
+    "flags": 2,
+    "modified": "2024-03-28T15:45:00Z"
+  },
+  {
+    "name": "reading",
+    "count": 3,
+    "flags": 8,
+    "modified": "2024-03-20T08:00:00Z"
+  }
+]

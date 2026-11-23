@@ -1,0 +1,5 @@
+{
+  "type": "Unauthorized",
+  "status": 401,
+  "detail": "The JWT is missing, invalid, or signed with the wrong secret."
+}

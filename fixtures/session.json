@@ -1,0 +1,15 @@
+{
+  "id": "s1T2u3V4w5X6y7Z8a9B0c1",
+  "account": {
+    "id": 48210,
+    "name": "Ada Lovelace",
+    "features": ["spaces", "api"],
+    "suspended": false,
+    "plan": {
+      "id": 3,
+      "name": "Mastermind"
+    }
+  },
+  "isReadOnly": false,
+  "created": "2024-04-08T09:00:00Z"
+}

@@ -1,0 +1,5 @@
+{
+  "type": "RateLimited",
+  "status": 429,
+  "detail": "Credit quota exceeded."
+}

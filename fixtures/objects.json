@@ -1,0 +1,64 @@
+[
+  {
+    "id": "a1B2c3D4e5F6g7H8i9J0k1",
+    "title": "The Art of Plain Text",
+    "url": "https://example.com/plain-text",
+    "summary": "A short essay on why plain text stays portable.",
+    "content": {
+      "type": "text/markdown",
+      "body": "# The Art of Plain Text\n\nPlain text is the most portable, future-proof format for writing..."
+    },
+    "tags": [
+      { "name": "writing", "flags": 8 },
+      { "name": "tools", "flags": 2 }
+    ],
+    "spaces": [
+      { "id": "j5K6l7M8n9O0p1Q2r3S4t5" }
+    ],
+    "notes": [
+      {
+        "id": "n4K8m2N6p9Q3r5T7v1X0z2",
+        "content": { "type": "text/markdown", "body": "Re-read this before the workshop." }
+      }
+    ],
+    "source": { "url": "https://example.com/plain-text" },
+    "created": "2024-03-01T12:00:00Z",
+    "modified": "2024-03-01T12:00:00Z",
+    "bumped": "2024-03-01T12:00:00Z"
+  },
+  {
+    "id": "z9Y8x7W6v5U4t3S2r1Q0p9",
+    "title": "Example Article",
+    "url": "https://example.com/article",
+    "summary": "An example article saved from the web.",
+    "tags": [
+      { "name": "reading", "flags": 8 }
+    ],
+    "spaces": [],
+    "source": { "url": "https://example.com/article" },
+    "screenshot": {
+      "path": "/shots/example-article.jpg",
+      "type": "image/jpeg",
+      "url": "https://mymind.media/shots/example-article.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    "created": "2024-04-08T09:00:00Z",
+    "modified": "2024-04-08T09:00:00Z",
+    "bumped": "2024-04-08T15:30:00Z"
+  },
+  {
+    "id": "k4L8m2N6p9Q3r5T7v1X0z2",
+    "title": "Meeting notes",
+    "content": {
+      "type": "text/markdown",
+      "body": "# Meeting notes\n\n- Kickoff with Sam\n- Follow up Thursday"
+    },
+    "tags": [
+      { "name": "work", "flags": 8 }
+    ],
+    "created": "2024-04-08T09:00:00Z",
+    "modified": "2024-04-08T09:00:00Z",
+    "bumped": "2024-04-08T09:00:00Z"
+  }
+]

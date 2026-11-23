@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "mymind": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "./server.js"
+      ],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "MYMIND_KEY_ID": "${MYMIND_KEY_ID}",
+        "MYMIND_KEY_SECRET": "${MYMIND_KEY_SECRET}",
+        "MYMIND_USER_AGENT": "${MYMIND_USER_AGENT}"
+      }
+    }
+  }
+}
